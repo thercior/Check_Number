@@ -38,15 +38,9 @@ if __name__=='__main__':
     window.config(padx=10,pady=100)
     
     # Labels
-    label_cel = Label(window,text="Celular:")
+    label_cel = Label(window,text="Digite o número do Celular \n (padrão +XXXX9XXXXXXXX):")
     label_cel.grid(row=2,column=0)
-    label_cel = Label(window,text="Número:")
-    label_cel.grid(row=1,column=0)
-    label_cel = Label(window,text="Operadora:")
-    label_cel.grid(row=2,column=0)
-    label_cel = Label(window,text="Estado:")
-    label_cel.grid(row=3,column=0)
-
+    
     # Entradas
     cel_entry = Entry(width=35)
     cel_entry.grid(row=2,column=1, columnspan=2)
