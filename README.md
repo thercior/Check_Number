@@ -31,4 +31,5 @@ Exemplo:
         999999999 - número do celular
         
 
-Após digitar, é informado no terminal o número digitado, se ele é um número válido ou não, a Operadora do celular bem como a região/estado a qual pertence.
+Após inserir o número, é informado no terminal o número digitado, se ele é um número válido ou não, a Operadora do celular bem como a região/estado a qual pertence. Conforme a imagem a seguir:
+
