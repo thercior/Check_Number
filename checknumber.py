@@ -1,11 +1,11 @@
 import phonenumbers
-from phonenumbers import carrier, geocoder
+from phonenumbers import NumberParseException, carrier, geocoder
 from tkinter import messagebox, Tk,Label,Entry,Button
 
 def check_number():
     #Captura o número do celular
-    cel= cel_entry.get()
-    if cel != None:
+    try:
+        cel= cel_entry.get()
         celular = phonenumbers.parse(cel)
 
         #Verifica se o número é Valido
@@ -27,7 +27,7 @@ def check_number():
                     f"Este número é da operadora {operadora}. \n"
                     f"E é do estado/província {state_number}."
         )
-    else:
+    except NumberParseException:
         messagebox.showinfo(
             title=f"Campo vazio",
             message="Por favor, digite um número válido.")
