@@ -2,15 +2,15 @@
 
 ## Sobre
 
-O `<b>`Check_number `</b>` é uma aplicação rápida e simples para verificar a operadora e a região a que pertence o número de celular digitado.
+O <b>`Check_number </b> é uma aplicação rápida e simples para verificar a operadora e a região a que pertence o número de celular digitado.
 
 ## Pré-requisitos
 
 É necessário instalar as bibliotecas utilizadas no projeto. Para isto, execute o comando abaixo na raiz do projeto:
 
-`<code>`pip install -r requirements.txt `</code>`
+<code>pip install -r requirements.txt </code>
 
-A Biblioteca `<b>`tkinter `</b>` é nativa e já vem com o python. Portanto, basta apenas importar.
+A Biblioteca <b>tkinter </b> é nativa e já vem com o python. Portanto, basta apenas importar.
 
 ## Utilização
 
@@ -18,12 +18,12 @@ Para executar o programa, basta utilizar qualquer IDE que você utiliza, ou pode
 
 Para executar do terminal, navegue até a raiz do projeto, e em seguida digite:
 
-* Para Windows: `<code>`python checknumber.py `</code>`
-* Para Linux: `<code>`python3 checknumber.py `</code>`
+* Para Windows: <code>python checknumber.py </code>
+* Para Linux: <code>python3 checknumber.py </code>
 
 Após isso, uma janela(form) window é aberta solicitando que você informe o número. O número deve ser informado no seguinte padrão:
 
-`<code>`"Sinal de mais +" "Seguido do código do Páis" "Código da região/estado" "Número de celular, sem ponto, traço"`</code>`
+<code>"Sinal de mais +" "Seguido do código do Páis" "Código da região/estado" "Número de celular, sem ponto, traço"</code>
 
 Exemplo:
 
